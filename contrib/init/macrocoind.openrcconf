@@ -1,0 +1,26 @@
+# /etc/conf.d/macrocoind: config file for /etc/init.d/macrocoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/macrocoin/macrocoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/macrocoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/macrocoind.pid"
+
+# Where to write macrocoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/macrocoind"
+
+# User and group to own macrocoind process
+#BITCOIND_USER="macrocoin"
+#BITCOIND_GROUP="macrocoin"
+
+# Path to macrocoind executable
+#BITCOIND_BIN="/usr/bin/macrocoind"
+
+# Nice value to run macrocoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

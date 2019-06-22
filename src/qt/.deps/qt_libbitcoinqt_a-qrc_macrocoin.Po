@@ -1,0 +1,4 @@
+qt/qt_libbitcoinqt_a-qrc_macrocoin.o: qt/qrc_macrocoin.cpp \
+ /usr/include/stdc-predef.h
+
+/usr/include/stdc-predef.h:

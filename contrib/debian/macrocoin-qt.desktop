@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Macrocoin
+Comment=Macrocoin P2P Cryptocurrency
+Comment[fr]=Macrocoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Macrocoin, eşten eşe kriptografik sanal para birimi
+Exec=macrocoin-qt %u
+Terminal=false
+Type=Application
+Icon=macrocoin128
+MimeType=x-scheme-handler/macrocoin;
+Categories=Office;Finance;
